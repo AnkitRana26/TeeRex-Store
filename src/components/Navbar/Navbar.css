@@ -1,0 +1,43 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+    background-color: #f0f1f0;
+
+}
+
+#navbar > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#cartIconContainer{
+    position: relative;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 15px 15px;
+    background-color: #d2d2d2;
+    height: fit-content;
+}
+
+#cartIconContainer >i {
+    font-size: 1.5rem;
+}
+
+#cartIconContainer > p{
+    position: absolute;
+    top: 3px;
+    right: 5%;
+}
+
+
+@media screen and (max-width:400px) {
+    #navbarSubHead{
+        display: none;
+    }
+}
+

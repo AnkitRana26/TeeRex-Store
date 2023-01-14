@@ -1,0 +1,86 @@
+.productCard {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+    display: grid;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+
+.productImageContainer {
+    position: relative;
+    
+}
+
+.productImageContainer>p {
+    position: absolute;
+    top: 0px;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
+    width: 100%;
+    height: 100%;
+    padding: 5px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    opacity: 0.0;
+    transition: 0.5s linear;
+
+    
+}
+
+.productImageContainer:hover>p {
+    opacity: 1.0;
+}
+
+.productDescription{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.productDescription >h4{
+    text-align: center;
+    width: 50%;
+}
+
+.productDescription > div{
+    width: 50%;
+}
+
+.productDescription > div >button{
+    width: 100%;
+    padding: 8px 0px;
+    background-color: #393938;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.productDescription >div> button>button{
+    background-color: transparent;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    transition: 0.3s linear;
+    height: 20px;
+    width: 20px;
+}
+.productDescription >div> button>button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.productDescription > div >button:hover{
+    background-color: #5e5e5a;
+}
+

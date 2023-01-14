@@ -2,8 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 30px;
+    padding: 7px 30px;
     background-color: #f0f1f0;
+    position: sticky;
+    top: 0px;
+    z-index: 20;
 }
 
 #navbar > div{
@@ -14,11 +17,10 @@
 
 #cartIconContainer{
     position: relative;
-    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    padding: 15px 15px;
+    padding: 10px 15px;
     background-color: #d2d2d2;
     height: fit-content;
 }
